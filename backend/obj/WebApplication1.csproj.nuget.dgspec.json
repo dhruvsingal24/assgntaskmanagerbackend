@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.netfolder\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\singa\\assgntaskmanagerbackend\\backend\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\.netfolder\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\singa\\assgntaskmanagerbackend\\backend\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.netfolder\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\singa\\assgntaskmanagerbackend\\backend\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\.netfolder\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\singa\\assgntaskmanagerbackend\\backend\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\singa\\.nuget\\packages\\",
-        "outputPath": "D:\\.netfolder\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\singa\\assgntaskmanagerbackend\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\singa\\AppData\\Roaming\\NuGet\\NuGet.Config"

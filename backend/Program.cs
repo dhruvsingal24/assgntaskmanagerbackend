@@ -2,6 +2,10 @@ using WebApplication1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configure to listen on Render's PORT
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+
 // Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -32,7 +36,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors("AllowAll");
 
-app.UseHttpsRedirection();
+// Remove HTTPS redirection for Render (Render handles SSL)
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
